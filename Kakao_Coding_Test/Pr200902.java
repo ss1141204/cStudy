@@ -18,7 +18,7 @@ public class Pr200902 {
 		for (int i = 0; i < dart.length; i++) {
 			if (dart[i].equals("S")) {
 				answer += num;
-				ans[j] = num;
+				ans[j] = num;	//숫자 배열에 추가
 				j++;
 				cnt = 0;
 			} else if (dart[i].equals("D")) {
@@ -44,15 +44,15 @@ public class Pr200902 {
 				}
 			} else if (dart[i].equals("*")) {
 				answer = 0;
-				ans[j - 1] *= 2;
-				if (j > 1) {
+				ans[j - 1] *= 2;	//첫 숫자 뒤에 나올 경우
+				if (j > 1) {		//2 / 3 번째 숫자 뒤에 나올 경우
 					ans[j - 2] *= 2;
 				}
 				for (int a : ans) {
 					answer += a;
 				}
 				cnt = 0;
-			} else { // dart[i].equals('#')
+			} else { // dart[i].equals("#")
 				answer = 0;
 				ans[j - 1] *= -1;
 				for (int a : ans) {
