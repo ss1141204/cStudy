@@ -35,4 +35,3 @@ for op in options:
 
             if Unlock: return True
 return False
-```
