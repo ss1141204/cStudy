@@ -4,16 +4,16 @@ public class Pr210605_2 {
 	public int solution(int n) {
         int answer = 1;
 				int cnt = 0;
-				int plus = (n - 1) * 2;
+				int plus = (n - 1) * 2; //소용돌이 수 간 덧셈 공식
 				int num = answer;
 			
 				for(int i = 0; i < n - 1; i++) {
 					if(cnt == 2) {
 						cnt = 0;
-						plus /= 2;
+						plus /= 2;	//소용돌이 수는 2회씩마다 절반으로 줄어듦.
 					}
 					
-					num += plus;	
+					num += plus;	//소용돌이 수 합
 					answer += num;
 					cnt++;
 				}
