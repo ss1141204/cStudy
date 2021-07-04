@@ -1,5 +1,3 @@
-package codingStudy;
-
 import java.util.Date;
 
 public class PrDateClass {
