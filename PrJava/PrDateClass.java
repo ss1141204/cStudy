@@ -1,4 +1,4 @@
-//JAVA_Date Class ÁÖ¿ä ¸Þ¼Òµå È°¿ë
+//JAVA_Date Class ì£¼ìš” ë©”ì†Œë“œ í™œìš©
 import java.util.Date;
 
 public class PrDateClass {
