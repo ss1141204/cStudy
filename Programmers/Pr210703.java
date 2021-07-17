@@ -1,7 +1,7 @@
 //프로그래머스 - 해시 - 완주하지 못한 선수
 import java.util.*;
 
-public class Hash1 {
+public class Pr210703 {
 	
 	public static String solution(String[] participant, String[] completion) {
         String answer = "";
